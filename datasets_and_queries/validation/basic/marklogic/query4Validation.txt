@@ -1,0 +1,117 @@
+[SubstitutionParameters]
+<http://dbpedia.org/resource/Dropmysite>;cwork:TextualFormat;cwork:NewsItem;5
+
+[ExpectedResultsSize]
+96
+
+[ResultsAcceptType]
+application/x-turtle
+
+[Results]
+@prefix bbcevent: <http://www.bbc.co.uk/ontologies/event/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix bbc: <http://www.bbc.co.uk/ontologies/bbc/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix music-ont: <http://purl.org/ontology/mo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cms: <http://www.bbc.co.uk/ontologies/cms/> .
+@prefix news: <http://www.bbc.co.uk/ontologies/news/> .
+@prefix cnews: <http://www.bbc.co.uk/ontologies/news/cnews/> .
+@prefix cconcepts: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix dbp-prop: <http://dbpedia.org/property/> .
+@prefix geonames: <http://sws.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix domain: <http://www.bbc.co.uk/ontologies/domain/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix geo-ont: <http://www.geonames.org/ontology#> .
+@prefix bbc-pont: <http://purl.org/ontology/po/> .
+@prefix tagging: <http://www.bbc.co.uk/ontologies/tagging/> .
+@prefix sport: <http://www.bbc.co.uk/ontologies/sport/> .
+@prefix skosCore: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbp-ont: <http://dbpedia.org/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix cwork: <http://www.bbc.co.uk/ontologies/creativework/> .
+@prefix fb: <http://rdf.freebase.com/ns/> .
+@prefix ot: <http://www.ontotext.com/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://www.bbc.co.uk/things/86230#id> a owl:Thing , cwork:CreativeWork , cwork:NewsItem ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/187645#id> , <http://www.bbc.co.uk/document/187646#id> , <http://www.bbc.co.uk/document/187647#id> , <http://www.bbc.co.uk/document/187648#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/86230#id" ;
+	cwork:audience cwork:NationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-07-28T14:04:08.283+03:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-04-02T23:33:39.969+03:00"^^xsd:dateTime ;
+	cwork:description " trimmest pompoms tacked carpet evenly overbalanced hysteresis twitches newer damsel essays necklace jolted impishness collapsing priciest staking tantalised retrofit goldsmith." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/862695/> ;
+	cwork:primaryFormat cwork:TextualFormat , cwork:InteractiveFormat ;
+	cwork:shortTitle " ideograms survived exultantly lecturer prostrations palsy largesse packs stab physiologists." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/1421076715> ;
+	cwork:title "Jose Goldemberg benevolently dominants olive's picket residual recently bathe scrutinise illustrator fisher." .
+
+<http://www.bbc.co.uk/things/86253#id> a owl:Thing , cwork:CreativeWork , cwork:NewsItem ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/188190#id> , <http://www.bbc.co.uk/document/188191#id> , <http://www.bbc.co.uk/document/188192#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/86253#id" ;
+	cwork:audience cwork:NationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-07-28T12:26:59.118+03:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-02-15T16:34:36.905+02:00"^^xsd:dateTime ;
+	cwork:description " periscopes placidly dacha blockheads yuppy hurt poacher bob occurs vaccine praised collides boleros crafts tonsillectomies jobbers leisure damned palates logistics rungs laciest." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/3122048/> ;
+	cwork:primaryFormat cwork:TextualFormat , cwork:InteractiveFormat ;
+	cwork:shortTitle " upstaged beset scattered coffers eavesdropping summerhouses storeys hashish tomahawking pluralistic." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/62191335> ;
+	cwork:title "Adrien Lambert offload remaking undeceive disorganising foursquare unpleasantly pigging upchucking testier bravely." .
+
+<http://www.bbc.co.uk/things/86206#id> a owl:Thing , cwork:CreativeWork , cwork:NewsItem ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/187038#id> , <http://www.bbc.co.uk/document/187039#id> , <http://www.bbc.co.uk/document/187040#id> , <http://www.bbc.co.uk/document/187041#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/86206#id" ;
+	cwork:audience cwork:NationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-07-28T12:07:36.817+03:00"^^xsd:dateTime ;
+	cwork:dateModified "2011-12-28T21:02:59.211+02:00"^^xsd:dateTime ;
+	cwork:description " pistils swaggered interrogate farewell men motherhood anthologists halcyon frostbite squabbles incorrigible corks cuckolded motes decimal fallows snobs discoursing croûton cinema monsieur christens." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/630632/> ;
+	cwork:primaryFormat cwork:TextualFormat , cwork:InteractiveFormat ;
+	cwork:shortTitle " smallpox desensitisation papering kebab dialysis halfheartedly persecutor neighbors abreast tentacle." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/1180836175> ;
+	cwork:title "Johan Wilhelm Rangell disestablished acknowledgments rushed northwestern crystallised overspend inexcusably swaggers demagogues present." .
+
+<http://www.bbc.co.uk/things/86255#id> a owl:Thing , cwork:CreativeWork , cwork:NewsItem ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/188231#id> , <http://www.bbc.co.uk/document/188232#id> , <http://www.bbc.co.uk/document/188233#id> , <http://www.bbc.co.uk/document/188234#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/86255#id" ;
+	cwork:audience cwork:NationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Company> ;
+	cwork:dateCreated "2011-07-28T12:00:46.479+03:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-08-23T15:13:21.781+03:00"^^xsd:dateTime ;
+	cwork:description " hallucinated foreswore shirks stroller communed daffy farthest executes." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/2627935/> ;
+	cwork:primaryFormat cwork:TextualFormat , cwork:InteractiveFormat ;
+	cwork:shortTitle " douche we commanders manifest sturdier merit paragraphing bike pettier retrieve." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/2144918949> ;
+	cwork:title "Heijmans colanders creaks pity shutterbug temporises sneak patinae blotch headdresses hooligan." .
+
+<http://www.bbc.co.uk/things/86225#id> a owl:Thing , cwork:CreativeWork , cwork:NewsItem ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/187528#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/86225#id" ;
+	cwork:audience cwork:NationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-07-28T10:43:21.613+03:00"^^xsd:dateTime ;
+	cwork:dateModified "2011-09-09T15:01:58.211+03:00"^^xsd:dateTime ;
+	cwork:description " rupees bouncers reappraising magneto tillers scrofula hypnotising bordello chowders digitalis confluence bypassing ducking conquistador's sac conjugation extemporises redecorating." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/252347/> ;
+	cwork:primaryFormat cwork:TextualFormat , cwork:InteractiveFormat ;
+	cwork:shortTitle " benching inglorious bedpan evidently tasselled trimmer pillowcase fewest jaywalking gander." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/561961579> ;
+	cwork:title "Johan Syrstad contemplatives stammered disinterest preponderates arbitrated editorialise ratings mists polymerisation groggy." .

@@ -138,12 +138,15 @@
         <delete dir="./data-temp/sparql/aggregation_standard"/>
         <delete dir="./data-temp/sparql/aggregation_graphdb"/>
         <delete dir="./data-temp/sparql/aggregation_virtuoso"/>
+        <delete dir="./data-temp/sparql/aggregation_marklogic"/>
         <delete dir="./data-temp/sparql/system_standard"/>
         <delete dir="./data-temp/sparql/system_graphdb"/>
         <delete dir="./data-temp/sparql/system_virtuoso"/>
+        <delete dir="./data-temp/sparql/system_marklogic"/>
         <delete dir="./data-temp/sparql/validation_standard"/>
         <delete dir="./data-temp/sparql/validation_graphdb"/>
         <delete dir="./data-temp/sparql/validation_virtuoso"/>
+        <delete dir="./data-temp/sparql/validation_marklogic"/>
 
 		<move file="./data-temp" toFile="./data"/>
 		<delete dir="./data-temp"/>
@@ -232,7 +235,19 @@
             <param name="customization" value="virtuoso"/>
         </antcall>
 	</target>	
-	
+
+	<target name="build-basic-querymix-marklogic" depends="build.release.version">
+	    <antcall target="setup-querymix">
+            <param name="querymix" value="basic"/>
+            <param name="customization" value="marklogic"/>
+	    </antcall>
+	    <antcall target="rebuild"/>		
+	    <antcall target="build-jar">
+            <param name="querymix" value="basic"/>
+            <param name="customization" value="marklogic"/>
+        </antcall>
+	</target>	
+
 	<target name="build-advanced-querymix" depends="build.release.version">
 	    <antcall target="setup-querymix">
             <param name="querymix" value="advanced"/>
@@ -267,6 +282,18 @@
 	    <antcall target="build-jar">
             <param name="querymix" value="advanced"/>
             <param name="customization" value="virtuoso"/>
+        </antcall>			
+	</target>	
+
+	<target name="build-advanced-querymix-marklogic" depends="build.release.version">	
+	    <antcall target="setup-querymix">
+            <param name="querymix" value="advanced"/>
+            <param name="customization" value="marklogic"/>
+	    </antcall>
+	    <antcall target="rebuild"/>		
+	    <antcall target="build-jar">
+            <param name="querymix" value="advanced"/>
+            <param name="customization" value="marklogic"/>
         </antcall>			
 	</target>	
 
@@ -359,6 +386,10 @@ To build the LDBC Semantic Publishing Benchmark, execute :
 	Virtuoso: 
 		ant build-basic-querymix-virtuoso    - builds the benchmark driver with basic query mix and queries optimized for Virtuoso
 		ant build-advanced-querymix-virtuoso - builds the benchmark driver with advanced query mix and queries optimized for Virtuoso
+
+	MarkLogic: 
+		ant build-basic-querymix-marklogic    - builds the benchmark driver with basic query mix and queries optimized for MarkLogic
+		ant build-advanced-querymix-marklogic - builds the benchmark driver with advanced query mix and queries optimized for MarkLogic
 -------------------------------------------------------------------------------------------------------------------------------------
     </echo>
 	</target>

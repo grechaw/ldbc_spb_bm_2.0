@@ -1,0 +1,192 @@
+[SubstitutionParameters]
+<http://dbpedia.org/resource/Laurentius_Paulinus_Gothus>;cwork:InternationalAudience;10
+
+[ExpectedResultsSize]
+179
+
+[ResultsAcceptType]
+application/x-turtle
+
+[Results]
+@prefix bbcevent: <http://www.bbc.co.uk/ontologies/event/> .
+@prefix geo-pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix bbc: <http://www.bbc.co.uk/ontologies/bbc/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix music-ont: <http://purl.org/ontology/mo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix provenance: <http://www.bbc.co.uk/ontologies/provenance/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cms: <http://www.bbc.co.uk/ontologies/cms/> .
+@prefix news: <http://www.bbc.co.uk/ontologies/news/> .
+@prefix cnews: <http://www.bbc.co.uk/ontologies/news/cnews/> .
+@prefix cconcepts: <http://www.bbc.co.uk/ontologies/coreconcepts/> .
+@prefix dbp-prop: <http://dbpedia.org/property/> .
+@prefix geonames: <http://sws.geonames.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix domain: <http://www.bbc.co.uk/ontologies/domain/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix geo-ont: <http://www.geonames.org/ontology#> .
+@prefix bbc-pont: <http://purl.org/ontology/po/> .
+@prefix tagging: <http://www.bbc.co.uk/ontologies/tagging/> .
+@prefix sport: <http://www.bbc.co.uk/ontologies/sport/> .
+@prefix skosCore: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dbp-ont: <http://dbpedia.org/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix curric: <http://www.bbc.co.uk/ontologies/curriculum/> .
+@prefix cwork: <http://www.bbc.co.uk/ontologies/creativework/> .
+@prefix fb: <http://rdf.freebase.com/ns/> .
+@prefix ot: <http://www.ontotext.com/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://www.bbc.co.uk/things/111799#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/200913#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111799#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-11-30T19:41:17.960+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-06-15T20:03:36.533+03:00"^^xsd:dateTime ;
+	cwork:description " defines correctly yield mishandled mu multifarious tactician regency youthfulness manicurist unseasonably grouse hamper equipped superconductivity untruest tonality mushier homes." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/2617289/> ;
+	cwork:primaryFormat cwork:TextualFormat , cwork:InteractiveFormat ;
+	cwork:shortTitle " transcribe mull mask crickets diapered voted mindlessly biassed populists initialise." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/1216252462> ;
+	cwork:title "Takaharu Nishino distantly sentimentalising firstly goofed appraises hod singling ghostlier fluctuated orate." .
+
+<http://www.bbc.co.uk/things/111802#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/200978#id> , <http://www.bbc.co.uk/document/200979#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111802#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-11-30T18:07:41.806+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-04-27T06:37:16.857+03:00"^^xsd:dateTime ;
+	cwork:description " shrouding shatterproof riffling straitening kindly brusque deathtraps extirpate uncultivated tracheotomies circumstance ickiest arrays queering frenzied steamrolling tamer stacks rosily duplicators pinkest imploding speculator." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/2760779/> ;
+	cwork:primaryFormat cwork:TextualFormat , cwork:InteractiveFormat ;
+	cwork:shortTitle " deviltry reprehends prognosticators appropriateness coruscates pricy awoken faxing waited finaglers." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/970383395> ;
+	cwork:title "Jürgen Grabowski shipping windscreens athlete referencing laptop whorl abash melodious jolted salesclerks." .
+
+<http://www.bbc.co.uk/things/111813#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/201163#id> , <http://www.bbc.co.uk/document/201164#id> , <http://www.bbc.co.uk/document/201165#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111813#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-11-30T17:52:13.410+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-10-01T04:46:08.623+03:00"^^xsd:dateTime ;
+	cwork:description " hermitage contains duchies gays mooch corporeal apoplectic filmed blinding legitimise cacao pertained sororities curbing hospitable." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/3200351/> ;
+	cwork:primaryFormat cwork:TextualFormat ;
+	cwork:shortTitle " bedevil encroachment kindergartener moll upland pussyfoot rearms silks flypapers memberships." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/1303551394> ;
+	cwork:title "Alessandro Turini unsightliest widowers attrition telecommunication determining shove minnows saviour antiquarians grovelled." .
+
+<http://www.bbc.co.uk/things/111817#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/201250#id> , <http://www.bbc.co.uk/document/201251#id> , <http://www.bbc.co.uk/document/201252#id> , <http://www.bbc.co.uk/document/201253#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111817#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Company> ;
+	cwork:dateCreated "2011-11-30T16:52:20.102+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-06-13T05:53:04.632+03:00"^^xsd:dateTime ;
+	cwork:description " dukedoms jackdaws muzzling putter interleukin cuffed ringside stylist invests bemoan livers swung calmest unemployment apprentice lowbrow jazzy assortments snoopiest." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/7284066/> ;
+	cwork:primaryFormat cwork:TextualFormat ;
+	cwork:shortTitle " dressers sculls lopping pericardiums postmasters overload diving tidies lynch gazettes." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/82332223> ;
+	cwork:title "Seven Seas Entertainment driven promotes fashions ventriloquists smokiest cabanas celibates subcultures punctuation maltreat." .
+
+<http://www.bbc.co.uk/things/111823#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/201356#id> , <http://www.bbc.co.uk/document/201357#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111823#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-11-30T15:06:25.612+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-11-23T02:12:15.209+02:00"^^xsd:dateTime ;
+	cwork:description " promenading mapper auguries allegiances flack really upbeat tidies codex emulsification embargo submissive fascist obtuser magnetise moldings blips famish wilder evaporating simplifies keenest." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/2967297/> ;
+	cwork:primaryFormat cwork:TextualFormat ;
+	cwork:shortTitle " probable restfulness garbage beatified foxed obscurity eviscerated distantly chrysanthemums culminates." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/413120676> ;
+	cwork:title "David S. H. Rosenthal paintbrush shoes negotiates absenting sweetly tummy detoxified manoeuvrable spend dally." .
+
+<http://www.bbc.co.uk/things/111805#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/201034#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111805#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-11-30T14:28:49.331+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2011-12-29T00:42:13.143+02:00"^^xsd:dateTime ;
+	cwork:description " loop overspreading propositional mismanaged warmest boil shoon disturbed." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/2927077/> ;
+	cwork:primaryFormat cwork:TextualFormat ;
+	cwork:shortTitle " thieves confederacy stability recessive cricked fairer scuffling slightness's stoat gigglers." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/738442761> ;
+	cwork:title "Vito Plut incitements elector tempestuously renewed quartet gopher devotions dejectedly pedestrianised cervix." .
+
+<http://www.bbc.co.uk/things/111803#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/200990#id> , <http://www.bbc.co.uk/document/200991#id> , <http://www.bbc.co.uk/document/200992#id> , <http://www.bbc.co.uk/document/200993#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111803#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-11-30T14:21:58.198+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-01-09T09:56:51.102+02:00"^^xsd:dateTime ;
+	cwork:description " tabu trusteeship peptics immigrates incriminate decedents womanising doubter bibliophiles spike roll cage retinue hoodlums freshman knocks comradeship sassier." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/2928752/> ;
+	cwork:primaryFormat cwork:TextualFormat ;
+	cwork:shortTitle " monikers shipyard reporting postmortem isolationism buildings submarine mouldings stink unsightliest." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/2129108182> ;
+	cwork:title "Jody Tini catching hullabaloos dickers amputees mandibles smolder laywomen vibraphone egalitarians crumbled." .
+
+<http://www.bbc.co.uk/things/111804#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/201022#id> , <http://www.bbc.co.uk/document/201023#id> , <http://www.bbc.co.uk/document/201024#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111804#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-11-30T05:50:11.313+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-08-01T16:05:42.659+03:00"^^xsd:dateTime ;
+	cwork:description " elucidation invincible signets overcharge urethra noteworthy frighteningly fondus." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/2975007/> ;
+	cwork:primaryFormat cwork:TextualFormat ;
+	cwork:shortTitle " craft tourmaline regularised specifiers lavishing sympathetic mustache horridly grooms proudly." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/424070923> ;
+	cwork:title "Ricardo Peralta Ortega sanitised inquisition offhandedly serape yip uncoils ineptitude chucking quantities peers." .
+
+<http://www.bbc.co.uk/things/111808#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/201076#id> , <http://www.bbc.co.uk/document/201077#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111808#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Persons> ;
+	cwork:dateCreated "2011-11-30T01:30:17.576+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2011-12-09T17:41:12.201+02:00"^^xsd:dateTime ;
+	cwork:description " salutations cramming bully compensates inseparably duplicates baubles standby be iffier advances drift articulates anarchism gain." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/2613632/> ;
+	cwork:primaryFormat cwork:TextualFormat , cwork:InteractiveFormat ;
+	cwork:shortTitle " industrially oysters agglomerate spiraeas trances barbered pilfering quiescent intellects wintriest." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/1342399725> ;
+	cwork:title "Randy Allen vestige crematoriums yodeller railways deprave insecticide salvaged hazarding latticework popularise." .
+
+<http://www.bbc.co.uk/things/111822#id> a owl:Thing , cwork:CreativeWork , cwork:BlogPost ;
+	bbc:primaryContentOf <http://www.bbc.co.uk/document/201343#id> , <http://www.bbc.co.uk/document/201344#id> , <http://www.bbc.co.uk/document/201345#id> , <http://www.bbc.co.uk/document/201346#id> ;
+	cwork:altText "thumbnail atlText for CW http://www.bbc.co.uk/context/111822#id" ;
+	cwork:audience cwork:InternationalAudience ;
+	cwork:category <http://www.bbc.co.uk/category/Event> ;
+	cwork:dateCreated "2011-11-30T01:07:41.637+02:00"^^xsd:dateTime ;
+	cwork:dateModified "2012-06-30T21:38:56.023+03:00"^^xsd:dateTime ;
+	cwork:description " guilds harbored hypo flagellum moderators plenitude aloe fragrantly." ;
+	cwork:liveCoverage "false"^^xsd:boolean ;
+	cwork:mentions <http://sws.geonames.org/2939357/> ;
+	cwork:primaryFormat cwork:TextualFormat ;
+	cwork:shortTitle " manually toiled flouted rationed indulge handpick beryl squished tempera iron." ;
+	cwork:thumbnail <http://www.bbc.co.uk/thumbnail/1098575756> ;
+	cwork:title "Sino-Burmese War (1765–69) etymologies mustache rigidity biopsying farina kisser cetacean erase rollicks ultra." .
