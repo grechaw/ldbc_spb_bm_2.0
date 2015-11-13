@@ -42,7 +42,7 @@ PREFIX ldbcspb: <http://www.ldbcouncil.org/spb#>
 SELECT ?uri ?label ?category ?rank {
   ?uri ldbcspb:hasRDFRank ?rank .
   ?uri rdf:type ?type .
-  ?uri rdfs:label ?label .
+  ?uri (rdfs:label|foaf:name) ?label .
   BIND ( 
     if(?type = dbo:Company, "Company",
         if(?type = dbo:Event, "Event",
